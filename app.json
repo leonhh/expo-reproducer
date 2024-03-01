@@ -15,16 +15,22 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.exporeproducer"
     },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static",
+            "newArchEnabled": true
+          }
+        }
+      ]
+    ],
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      "package": "com.anonymous.exporeproducer"
     }
   }
 }
