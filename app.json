@@ -3,7 +3,7 @@
     "name": "expo-reproducer",
     "slug": "expo-reproducer",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "horizontal",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
